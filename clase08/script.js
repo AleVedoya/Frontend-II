@@ -91,5 +91,3 @@ function crearCard(noticia, contenedor) {
 for (const noticia of noticias) {
   crearCard(noticia, contenedor);
 }
-
-cargarCards();
