@@ -21,7 +21,6 @@ function renderizarDatosUsuario(datos) {
   // Aquí deben desarrollar una función que muestre en pantalla:
   // la foto, el nombre completo del usuario y su email.
   // Esto debe estar basado en la info que nos llega desde la API e insertarse en el HTML.
-  tarjeta.innerHTML = "";
 
   datos.results.forEach((element) => {
     let usuario = `
@@ -30,7 +29,7 @@ function renderizarDatosUsuario(datos) {
             <p class="email">${element.email}</p>
         `;
 
-    tarjeta.innerHTML += usuario;
+    tarjeta.innerHTML = usuario;
   });
 }
 
