@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+  --primary: #7898FF;
+  --secondary: #8E64C5;
+  --app-grey: #F2F2F2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  background: linear-gradient(110deg, var(--primary), var(--secondary));
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.btnContainer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.btnContainer button {
+  padding: 5px 15px;
+  background-color: black;
+  color: #F2F2F2;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btnContainer button:hover {
+  box-shadow: 0 0 25px rgb(255, 255, 255);
+
+}
+
+.foto {
+  width: 5em;
+  border-radius: 0.5rem;
+    box-shadow: 0 0 30px #2d1f56;
+}
